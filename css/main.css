@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+  box-sizing: border-box;
+  /*reset Chrome user agent styles*/
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-after: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
+  font-size: 16px;
+}
+
+/* navigation section */
+
+nav {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px 0;
+  background: linear-gradient(90deg,#fe2847,#ff3a57);
+  color: #ffffff;
+  font-family: Roboto;
+
+}
+
+nav > div {
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+  margin-left: 10%;
+}
+
+nav div span {
+  font-style: italic;
+  border: 3px solid #ffffff;
+  padding: 5px 10px;
+  font-size: 32px;
+  font-family: Roboto;
+}
+
+nav ul {
+  display: inline-block;
+  width: 40%;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* hook */
+
+.hook {
+  background-image: url('../images/software-programming-plan_4460x4460.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+.transparent {
+  background-image: url('../images/transparent.jpg');
+  opacity: 0.9;
+}
+
+.hook-content {
+  width: 80%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 350px 0;
+  margin: 0 auto;
+}
+
+.hook-content h1 {
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  font-family: Poppins;
+  color: #ffffff;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+h1 span {
+  border-bottom: 5px solid #ff3a57;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  font-family: Poppins;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.hook-content button {
+  border-radius: 20px;
+  background-color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  padding: 10px 30px;
+  color: #ff3a57;
+  border: 2px solid #ff3a57;
+  margin-top: 20px;
+  font-weight: 100;
+}
+
+/* about us */
+.about-us {
+  padding: 50px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.about-us h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-family: Roboto;
+  letter-spacing: 1px;
+  color: #454545;
+}
+
+.about-us-explanation {
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+  color: #454545;
+}
+
+.about-us-explanation span {
+  border-bottom: 2px solid #ff3a57;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about-us-words{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 19%;
+  display: inline-block;
+  padding: 100px 0;
+}
+
+.schedule-a-call {
+  border: 2px solid #454545;
+  padding: 10px 15px;
+  margin-top: 40px;
+  color: #454545;
+}
+
+.complex-images {
+  width: 50%;
+  display: inline-block;
+}
+
+.complex-images img {
+  width: 48%;
+  display: inline-block;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px 0 rgba(151, 151, 151, 0.5);
+  margin-right: 1%
+}
+
+/* three main points  */
+.three-main-points {
+  background-color: #f3f3f3;
+  padding: 40px 10%;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.three-main-points li {
+  width: 300px;
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+  margin: 10px 50px;
+}
+
+.points-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.three-main-points li img {
+  width: 50px;
+  margin-top: 20px;
+}
+
+.points-content {
+  margin-top: 20px;
+  line-height: 1.3;
+}
